@@ -37,7 +37,7 @@ INSTALACION SERVIDORES EN UBUNTU
      - __*"systemctl enable ssh"*__ ![Enable SSH](fotos/Pasted%20image%2020260311114818.png)
 
 5. Por ultimo usamos el comando __*"ufw allow ssh"*__, este comando es por si tienes activado el firewall de Ubuntu, para que no tenga problemas.
-   ![Firewall SSH](fotos/Pasted%20image%2020260311094245.png)
+![Firewall SSH](fotos/Pasted%20image%2020260311094245.png)
    
 ------
 

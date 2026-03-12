@@ -2,9 +2,10 @@
 ---
 
 ## Usuarios
-1.  usuario: hugob --> contraseña: hugob
-2. usuario: usuarioftp -->contraseña: usuario
-3. usuario: usuario_SSH --> contraseña: usuario
+1.  usuario: hugob --> contraseña: hugob.
+2. usuario: usuarioftp -->contraseña: usuario.
+3. usuario: usuario_SSH --> contraseña: usuario.
+
 ## PARTICIONES
 
 1. Partición *"/"* --> Root, aloja el sistema operativo

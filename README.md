@@ -52,7 +52,8 @@ INSTALACION SERVIDORES EN UBUNTU
 
 3. Hacemos lo mismo que con SSH, abrimos el puerto para que te el Firewall no de problemas:
    - __*"ufw allow in "Apache""*__
-     ![Firewall Apache](fotos/Pasted%20image%2020260311115448.png)
+
+   ![Firewall Apache](fotos/Pasted%20image%2020260311115448.png)
 
 -----
 

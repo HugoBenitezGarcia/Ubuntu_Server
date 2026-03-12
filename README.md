@@ -20,8 +20,6 @@ INSTALACION SERVIDORES EN UBUNTU
 
 ## Instalación de SSH
 
------
-
 1. Para que sea mas fácil usamos el comando __*"sudo bash"*__. Esto lo que hace es ponernos como administrador y no tener que estar usando *"sudo"* todo el rato.
 2. actualizamos el sistema con el comando __*"apt update"*__.
 3. Usamos el comando __*"apt install openssh-server"*__, debería salir algo así:
@@ -34,6 +32,8 @@ INSTALACION SERVIDORES EN UBUNTU
 
 5. Por ultimo usamos el comando __*"ufw allow ssh"*__, este comando es por si tienes activado el firewall de Ubuntu, para que no tenga problemas.
    ![Firewall SSH](fotos/Pasted%20image%2020260311094245.png)
+   
+------
 
 ## INSTALACION SERVIDOR APACHE
 
@@ -48,6 +48,7 @@ INSTALACION SERVIDORES EN UBUNTU
    - __*"ufw allow in "Apache""*__
      ![Firewall Apache](fotos/Pasted%20image%2020260311115448.png)
 
+-----
 
 ## Instalación servidor FTP
 
@@ -64,7 +65,7 @@ INSTALACION SERVIDORES EN UBUNTU
      - Puerto 20: sirve para la transferencia de datos 
      - Puerto 21: Gestiona la conexión y controla los datos 
 
-
+-----
 
 ## Usuario en el servidor FTP
 
@@ -85,7 +86,10 @@ INSTALACION SERVIDORES EN UBUNTU
 6. Reiniciamos el servicio ftp para aplicar los cambios
 	- comando: __*"systemctl restart vsftpd"*__.
 
+------
+
 ## Usuario SSH
+
 1.  Crear Usuario, Mismo comando que antes;
 	- __*"adduser (nombre)"*__
 	- ![User SSH](fotos/Pasted%20image%2020260312090910.png)
@@ -104,8 +108,10 @@ INSTALACION SERVIDORES EN UBUNTU
 	  - En "Conectar a" desplegamos el menú y buscamos "Adaptador puente"	  ![Adaptador Puente](fotos/Pasted%20image%2020260312093833.png)
 	  - Aceptamos y arrancamos la maquina.
 
+--------
 
 ## COMO TRANSFERIR ARCHIVOS
+
 1. Instalamos FileZilla en la maquina anfitriona (en el portátil)
 2. Después de haber puesto el modo "Adaptador puente", con el comando __*"ip addr"*__ sacamos la IP de la maquina virtual.
 3. Rellenamos lo que nos pide en la parte de arriba (IP, nombre, contraseña y puerto)  y una vez que este todo le damos a conexión rápida.
@@ -116,6 +122,7 @@ INSTALACION SERVIDORES EN UBUNTU
 	- Este comando cambia el dueño de la carpeta, este comando significa que quiero que el dueño de esta carpeta sea el "usuarioftp"
 	- ahora ya es dueño total de esa carpeta
 
+-------
 
 ## PASAR DE FTP A APACHE
 

@@ -5,7 +5,13 @@ INSTALACION SERVIDORES EN UBUNTU
 1.  usuario: hugob --> contraseña: hugob
 2. usuario: usuarioftp -->contraseña: usuario
 3. usuario: usuario_SSH --> contraseña: usuario
-   
+
+---------
+## IP del Servidor
+
+172.16.42.38
+
+
 ---------
 
 ## PARTICIONES

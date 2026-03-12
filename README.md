@@ -1,4 +1,4 @@
-
+INSTALACION EN UBUNTU SERVER
 ---
 
 ## Usuarios
@@ -11,14 +11,14 @@
 2. Partición *"/home"* --> Protege los archivos del usuario/usuarios
 3. Partición *"/swap"* --> Es una memoria RAM de emergencia
 
-![[Pasted image 20260309091841.png]]
+![](fotos/Pasted image 20260309091841.png)
 
 ## Instalación de SSH
 
 1. Para que sea mas fácil usamos el comando __*"sudo bash"*__. Esto lo que hace es ponernos como administrador y no tener que estar usando *"sudo"* todo el rato.
 2. actualizamos el sistema con el comando __*"apt update"*__.
 3. Usamos el comando __*"apt install openssh-server"*__, debería salir algo así:
-![[Pasted image 20260311093809.png|445]]
+   ![](fotosPasted image 20260311093809.png|445)
 
 4. Ahora usamos el comando __*"systemctl status ssh"*__, con este comando comprobamos que este funcionando bien.
    ![[Pasted image 20260311094041.png]]
